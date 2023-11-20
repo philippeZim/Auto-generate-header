@@ -79,11 +79,6 @@ cl = []
 
 cl.append("#include \"" + className + ".h\"")
 cl.append("")
-"""
-void test(int sj) {
-void Port::test(int sj) {
-"""
-
 
 def addClassToFun(input):
     w = input.split()
