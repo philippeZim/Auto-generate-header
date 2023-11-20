@@ -10,6 +10,7 @@ python3 main.py example.cpp
 
 For instance, the file example.cpp could contain a class structured like this:
 
+```
 #include <iostream>
 #include <vector>
 
@@ -42,9 +43,11 @@ class Port {
         }
     
 };
+```
 
 The Python script will then generate two files: Port.cpp and Port.h, which would look like this:
 
+```
 // Port.cpp
 
 #include "Port.h"
@@ -71,7 +74,9 @@ double Port::getMoney() {
 int Port::getFreeSlots() {
     return this->freeSlots;
 }
+```
 
+```
 // Port.h
 
 #ifndef PORT_H
@@ -93,6 +98,7 @@ class Port {
 };
 
 #endif
+```
 
 Now you can conveniently include the Port.h header file in your project. 
 Don't forget to add the generated CPP file to your build command.
