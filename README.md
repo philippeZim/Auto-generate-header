@@ -1,11 +1,11 @@
 # Auto-generate-header
 Auto-generate C++ header file from class
 
-## Usage:
+### Usage:
 Provide the main Python script with the path to a CPP file containing a class. 
 This will automatically generate a header file and a CPP file containing the methods.
 
-## Example usage (Linux):
+### Example usage (Linux):
 python3 main.py example.cpp
 
 For instance, the file example.cpp could contain a class structured like this:
